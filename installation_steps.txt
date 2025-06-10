@@ -1,0 +1,19 @@
+pip install nltk transformers spacy pandas scikit-learn fastapi sqlalchemy 
+pip install pydantic python-dotenv passlib python-jose question-generator
+pip install openai torch python-multipart 
+pip install torch
+pip install sentencepiece
+pip install uvicorn
+pip install bcrypt
+pip install reportlab
+# SQLite is included in Python standard library, no need for additional driver
+python -m nltk.downloader punkt stopwords wordnet
+python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_md
+
+npm create vite@latest frontend -- --template react
+npm install --prefix frontend react-router-dom axios styled-components @mui/material @emotion/react @emotion/styled
+npm install react-router-dom
+npm install axios
+npm install styled-components
+npm install dotenv
